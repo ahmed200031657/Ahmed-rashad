@@ -1,0 +1,144 @@
+	1: ID, name= FUNCTION
+	1: ID, name= count
+	1: ERROR: _
+	1: ID, name= odd
+	1: ERROR: _
+	1: ID, name= and
+	1: ERROR: _
+	1: ID, name= even
+	1: ERROR: _
+	1: ID, name= numbers
+	1: (
+	1: ID, name= numbers
+	1: ERROR: _
+	1: ID, name= list
+	1: )
+	1: ERROR: :
+	2: ID, name= odd
+	2: ERROR: _
+	2: ID, name= count
+	2: =
+	2: NUM, val= 0
+	3: ID, name= even
+	3: ERROR: _
+	3: ID, name= count
+	3: =
+	3: NUM, val= 0
+	4: ID, name= for
+	4: ID, name= EACH
+	4: ID, name= number
+	4: ID, name= in
+	4: ID, name= numbers
+	4: ERROR: _
+	4: ID, name= list
+	4: ID, name= do
+	5: reserved word: if
+	5: ID, name= number
+	5: ERROR: %
+	5: NUM, val= 2
+	5: ==
+	5: NUM, val= 0
+	5: ID, name= then
+	6: ID, name= even
+	6: ERROR: _
+	6: ID, name= count
+	6: =
+	6: ID, name= even
+	6: ERROR: _
+	6: ID, name= count
+	6: +
+	6: NUM, val= 1
+	7: reserved word: else
+	8: ID, name= odd
+	8: ERROR: _
+	8: ID, name= count
+	8: =
+	8: ID, name= odd
+	8: ERROR: _
+	8: ID, name= count
+	8: +
+	8: NUM, val= 1
+	9: ID, name= end
+	9: reserved word: if
+	10: ID, name= end
+	10: ID, name= for
+	11: reserved word: return
+	11: ID, name= odd
+	11: ERROR: _
+	11: ID, name= count
+	11: ,
+	11: ID, name= even
+	11: ERROR: _
+	11: ID, name= count
+	12: ID, name= end
+	12: ID, name= FUNCTION
+	14: ID, name= numbers
+	14: =
+	14: [
+	14: NUM, val= 1
+	14: ,
+	14: NUM, val= 2
+	14: ,
+	14: NUM, val= 3
+	14: ,
+	14: NUM, val= 4
+	14: ,
+	14: NUM, val= 5
+	14: ,
+	14: NUM, val= 6
+	14: ,
+	14: NUM, val= 7
+	14: ,
+	14: NUM, val= 8
+	14: ,
+	14: NUM, val= 9
+	14: ,
+	14: NUM, val= 10
+	14: ]
+	14: /
+	14: /
+	14: ID, name= Example
+	14: ID, name= list
+	14: ID, name= of
+	14: ID, name= numbers
+	15: ID, name= odd
+	15: ,
+	15: ID, name= even
+	15: =
+	15: ID, name= count
+	15: ERROR: _
+	15: ID, name= odd
+	15: ERROR: _
+	15: ID, name= and
+	15: ERROR: _
+	15: ID, name= even
+	15: ERROR: _
+	15: ID, name= numbers
+	15: (
+	15: ID, name= numbers
+	15: )
+	16: ID, name= PRINT
+	16: (
+	16: ERROR: "
+	16: ID, name= Number
+	16: ID, name= of
+	16: ID, name= odd
+	16: ID, name= numbers
+	16: ERROR: :
+	16: ERROR: "
+	16: ,
+	16: ID, name= odd
+	16: )
+	17: ID, name= PRINT
+	17: (
+	17: ERROR: "
+	17: ID, name= Number
+	17: ID, name= of
+	17: ID, name= even
+	17: ID, name= numbers
+	17: ERROR: :
+	17: ERROR: "
+	17: ,
+	17: ID, name= even
+	17: )
+	21: EOF
